@@ -11,8 +11,17 @@ export function RecommendProducts() {
       <ul className="recommend-products__lists">
         <li className="recommend-products__list">
           <img className="recommend-product__image" src={headphone1}/>
+        </li>
+        <li className="recommend-products__list">
           <img className="recommend-product__image" src={headphone2}/>
+        </li>
+        <li className="recommend-products__list">
           <img className="recommend-product__image" src={headphone3}/>
+        </li>
+        <li className="recommend-products__list">
+          <img className="recommend-product__image" src={headphone4}/>
+        </li>
+        <li className="recommend-products__list">
           <img className="recommend-product__image" src={headphone4}/>
         </li>
       </ul>
