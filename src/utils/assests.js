@@ -3,6 +3,8 @@ import headphone2 from "../images/assests/headphones_c_2.webp";
 import headphone3 from "../images/assests/headphones_c_3.webp";
 import headphone4 from "../images/assests/headphones_c_4.webp";
 
+import speaker from "../images/assests/speaker4.webp"
+
 
 
 
@@ -12,4 +14,5 @@ export {
   headphone2,
   headphone3,
   headphone4,
+  speaker,
 }
