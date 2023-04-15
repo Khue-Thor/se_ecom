@@ -1,0 +1,20 @@
+.recommend-products__container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+.recommend-products__lists {
+  max-width: 1292px;
+  background-color: #07C1EA;
+  list-style: none;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.recommend-product__image {
+  width: 320px;
+  height: 333px;
+  margin: 0;
+  padding: 0;
+}
