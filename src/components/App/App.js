@@ -4,8 +4,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
+      <div className='App__content'>
       <Header/>
+      </div>
     </div>
   );
 }

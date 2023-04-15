@@ -1,0 +1,23 @@
+.navbar {
+  max-width: 100%;
+  background-color: #052759;
+  padding: 13px 0 13px 0;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+.navbar__button {
+  border: none;
+  background: transparent;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}

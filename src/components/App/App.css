@@ -1,5 +1,9 @@
-.app {
+.App {
   max-width: 1440px;
   margin: auto;
-  background-color: #FFFEFD;
+  background-color: #FFF8F4;
+}
+
+.App__content {
+  max-width: 100%;
 }

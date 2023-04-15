@@ -1,4 +1,5 @@
 import React from "react";
+import { NavBar } from "../NavBar/NavBar";
 import logo from "../../images/logo.svg";
 import carticon from '../../images/carticon.svg';
 import "./Header.css";
@@ -30,6 +31,7 @@ export function Header() {
           </div>
         </div>
       </div>
+      <NavBar/>
     </header>
   );
 }
