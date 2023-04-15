@@ -21,9 +21,9 @@ export function NavBar() {
           Speakers
         </button>
         <button type="button" className="navbar__button">
-         Watches
+          Watches
         </button>
       </div>
     </div>
-  )
+  );
 }
