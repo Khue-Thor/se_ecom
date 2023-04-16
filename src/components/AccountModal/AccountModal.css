@@ -1,17 +1,13 @@
 .modal {
   position: absolute;
-  top: 45px;
-  right: 1px;
+  top: 60px;
+  right: 265px;
   white-space: nowrap;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
-  opacity: 0;
-  pointer-events: none;
 }
-
-
 
 .modal__container {
   max-width: 240px;

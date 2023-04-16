@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <div className='App__content'>
-      <Header/>
+      <Header onAccountClick={handleOpenAccountModal}/>
       <Main/>
       </div>
       {isAccountModalOpen && (

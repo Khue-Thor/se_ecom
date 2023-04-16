@@ -24,7 +24,7 @@ export function Header({onAccountClick, onOrderClick, onCartClick}) {
           </div>
 
           <div className="header__menu-wrapper">
-            <button className="header__button" onClick={onAccountClick}>Account <AccountModal className="modal"/></button>
+            <button className="header__button" onMouseOver={onAccountClick}>Account</button>
             <button className="header__button">Orders</button>
             <button className="header__button">
               <img src={carticon} />
