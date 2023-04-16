@@ -27,7 +27,8 @@
 }
 .modal__signin-link:hover {
   cursor: pointer;
-  background-color: red;
+  background-color: #E0D813;
+  color: #000000;
 }
 
 .modal__signup-link {
