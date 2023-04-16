@@ -11,6 +11,11 @@ export function Main() {
       <RecommendProducts/>
        <ul className="main__item-lists">
        <ItemCard/>
+       <ItemCard/>
+       <ItemCard/>
+       <ItemCard/>
+       <ItemCard/>
+       <ItemCard/>
        </ul>
       </div>
     </main>
