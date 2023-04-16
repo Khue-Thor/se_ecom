@@ -62,6 +62,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  opacity: 1;
 }
 
 .card__add-button {
@@ -74,4 +75,9 @@
 .card__add-checkout {
   margin-bottom: 10px;
   background-color: #E0D813;
+}
+
+.card__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
