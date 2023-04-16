@@ -14,6 +14,13 @@
   overflow-x: scroll;
 }
 
+.recommend-products__list:hover {
+  cursor: pointer;
+  background-color: #47a5c7;
+  border-radius: 30%;
+  transition: 0.2s;
+}
+
 .recommend-product__image {
   width: 320px;
   height: 333px;

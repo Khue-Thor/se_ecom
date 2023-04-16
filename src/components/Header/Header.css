@@ -66,6 +66,7 @@
   background: transparent;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 .header__button:hover {

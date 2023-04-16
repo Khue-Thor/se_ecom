@@ -1,7 +1,8 @@
 import React from "react";
 import { NavBar } from "../NavBar/NavBar";
+import { Link } from "react-router-dom";
 import logo from "../../images/logo.svg";
-import carticon from '../../images/carticon.svg';
+import carticon from "../../images/carticon.svg";
 import "./Header.css";
 
 export function Header() {
@@ -25,13 +26,13 @@ export function Header() {
             <button className="header__button">Account</button>
             <button className="header__button">Orders</button>
             <button className="header__button">
-              <img src={carticon}/>
+              <img src={carticon} />
               Cart
             </button>
           </div>
         </div>
       </div>
-      <NavBar/>
+      <NavBar />
     </header>
   );
 }
