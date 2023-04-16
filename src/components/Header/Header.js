@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "../../images/logo.svg";
 import carticon from "../../images/carticon.svg";
 import "./Header.css";
+import { AccountModal } from "../AccountModal/AccountModal";
 
 export function Header() {
   return (
