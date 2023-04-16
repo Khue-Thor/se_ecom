@@ -2,7 +2,7 @@ import React from "react";
 import "./AccountModal.css";
 import { Link } from "react-router-dom";
 
-export function AccountModal({onAccountCLose}) {
+export function AccountModal({ onAccountCLose }) {
   return (
     <div className="modal modal__content" onMouseLeave={onAccountCLose}>
       <div className="modal__container">
