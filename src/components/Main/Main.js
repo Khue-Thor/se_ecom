@@ -16,7 +16,6 @@ export function Main() {
        <ItemCard/>
        <ItemCard/>
        <ItemCard/>
-       <ItemCard/>
        </ul>
       </div>
     </main>
