@@ -6,7 +6,7 @@ import carticon from "../../images/carticon.svg";
 import "./Header.css";
 import { AccountModal } from "../AccountModal/AccountModal";
 
-export function Header({onAccountClick, onOrderClick, onCartClick}) {
+export function Header({onAccountOpen, onOrderClick, onCartClick}) {
   return (
     <header className="header">
       <div className="header__container">
@@ -24,7 +24,7 @@ export function Header({onAccountClick, onOrderClick, onCartClick}) {
           </div>
 
           <div className="header__menu-wrapper">
-            <button className="header__button" onMouseOver={onAccountClick}>Account</button>
+            <button className="header__button" onMouseOver={onAccountOpen}>Account</button>
             <button className="header__button">Orders</button>
             <button className="header__button">
               <img src={carticon} />

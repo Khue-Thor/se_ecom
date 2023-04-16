@@ -1,24 +1,22 @@
 .modal {
   position: absolute;
-  top: 60px;
-  right: 265px;
-  white-space: nowrap;
+  top: 78px;
+  right: 250px;
+  transition: visibility 0s linear 0.3s, opacity 0.3s linear;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 10;
 }
+
 
 .modal__container {
   max-width: 240px;
-  height: 100px;
   background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
 }
-
 .modal__signin-link {
-  max-width: 200px;
+  width: 170px;
   padding: 10px 30px 10px 30px;
   margin: auto;
   border-radius: 10px;

@@ -2,9 +2,9 @@ import React from "react";
 import "./AccountModal.css";
 import { Link } from "react-router-dom";
 
-export function AccountModal() {
+export function AccountModal({onAccountCLose}) {
   return (
-    <div className="modal">
+    <div className="modal modal__content" onMouseLeave={onAccountCLose}>
       <div className="modal__container">
         <Link to={"/signin"}>
           <button className="modal__signin-link">Sign In</button>
