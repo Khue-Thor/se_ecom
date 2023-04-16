@@ -12,7 +12,7 @@ export function Header({onAccountClick, onOrderClick, onCartClick}) {
       <div className="header__container">
         <img src={logo} className="header__logo" />
 
-        <div className="header__co-container">
+       
           <div className="header__search-wrapper">
             <input
               className="header__search-input"
@@ -24,14 +24,14 @@ export function Header({onAccountClick, onOrderClick, onCartClick}) {
           </div>
 
           <div className="header__menu-wrapper">
-            <button className="header__button" onClick={onAccountClick}>Account</button>
-            <button className="header__button" onTouchMove={}>Orders</button>
+            <button className="header__button" onClick={onAccountClick}>Account <AccountModal className="modal"/></button>
+            <button className="header__button">Orders</button>
             <button className="header__button">
               <img src={carticon} />
               Cart
             </button>
           </div>
-        </div>
+       
       </div>
       <NavBar />
     </header>
